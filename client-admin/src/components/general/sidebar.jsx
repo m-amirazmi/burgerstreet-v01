@@ -20,7 +20,7 @@ export default function Sidebar() {
         Logo
       </Link>
       <div
-        className={`relative py-6 overflow-scroll`}
+        className={`relative py-6 overflow-scroll scrollbar-hide`}
         style={{ height: `calc(100vh - ${logoHeight}px)` }}
       >
         {menu.map((m) => (

@@ -2,11 +2,12 @@
   {
     "id": "1",
     "category": "Stall Management",
+    "category_id": "stalls",
     "links": [
       {
         "id": "1.1",
         "title": "Dashboard",
-        "link": "/admin"
+        "link": "/"
       },
       {
         "id": "1.2",
@@ -15,49 +16,65 @@
           {
             "id": "1.2.1",
             "title": "All Stalls",
-            "link": "/admin/stalls"
+            "link": "/stalls"
           },
           {
             "id": "1.2.2",
             "title": "New Stall Requests",
-            "link": "/admin/stalls/new-requests"
+            "link": "/stalls/new-requests"
           },
           {
             "id": "1.2.3",
             "title": "Archive Stalls",
-            "link": "/admin/stalls/archive"
+            "link": "/stalls/archive"
           }
         ]
       },
       {
         "id": "1.3",
-        "title": "Burger Types",
+        "title": "Stall Amenities",
         "submenu": [
           {
             "id": "1.3.1",
-            "title": "All Burger Types",
-            "link": "/admin/burger-types"
+            "title": "All Stall Amenities",
+            "link": "/stall-amenities"
           },
           {
             "id": "1.3.1",
-            "title": "Archive Burger Types",
-            "link": "/admin/burger-types/archive"
+            "title": "Archive Stall Amenities",
+            "link": "/stall-amenities/archive"
           }
         ]
       },
       {
         "id": "1.4",
-        "title": "Burger Options",
+        "title": "Burger Types",
         "submenu": [
           {
             "id": "1.4.1",
-            "title": "All Burger Options",
-            "link": "/admin/burger-options"
+            "title": "All Burger Types",
+            "link": "/burger-types"
           },
           {
             "id": "1.4.1",
+            "title": "Archive Burger Types",
+            "link": "/burger-types/archive"
+          }
+        ]
+      },
+      {
+        "id": "1.5",
+        "title": "Burger Options",
+        "submenu": [
+          {
+            "id": "1.5.1",
+            "title": "All Burger Options",
+            "link": "/burger-options"
+          },
+          {
+            "id": "1.5.1",
             "title": "Archive Burger Options",
-            "link": "/admin/burger-options/archive"
+            "link": "/burger-options/archive"
           }
         ]
       }
@@ -66,6 +83,7 @@
   {
     "id": "2",
     "category": "User Access Management",
+    "category_id": "users",
     "links": [
       {
         "id": "2.1",
@@ -73,23 +91,13 @@
         "submenu": [
           {
             "id": "2.1.1",
-            "title": "View Users",
-            "link": "/admin/users/view"
+            "title": "All Users",
+            "link": "/users"
           },
           {
             "id": "2.1.2",
-            "title": "Add New User",
-            "link": "/admin/users/add"
-          },
-          {
-            "id": "2.1.3",
-            "title": "Edit User",
-            "link": "/admin/users/edit"
-          },
-          {
-            "id": "2.1.4",
-            "title": "Delete User",
-            "link": "/admin/users/delete"
+            "title": "Archive User",
+            "link": "/users/archive"
           }
         ]
       }
@@ -98,6 +106,7 @@
   {
     "id": "3",
     "category": "Configuration",
+    "category_id": "configurations",
     "links": [
       {
         "id": "3.1",
@@ -106,22 +115,22 @@
           {
             "id": "3.1.1",
             "title": "Sales Report",
-            "link": "/admin/reports/sales"
+            "link": "/reports/sales"
           },
           {
             "id": "3.1.2",
             "title": "User Activity Report",
-            "link": "/admin/reports/user-activity"
+            "link": "/reports/user-activity"
           },
           {
             "id": "3.1.3",
             "title": "Popular Burger Stalls Report",
-            "link": "/admin/reports/popular-stalls"
+            "link": "/reports/popular-stalls"
           },
           {
             "id": "3.1.4",
             "title": "Custom Report Builder",
-            "link": "/admin/reports/custom-builder"
+            "link": "/reports/custom-builder"
           }
         ]
       },
@@ -132,22 +141,22 @@
           {
             "id": "3.2.1",
             "title": "General Settings",
-            "link": "/admin/settings/general"
+            "link": "/settings/general"
           },
           {
             "id": "3.2.2",
             "title": "Dashboard Configuration",
-            "link": "/admin/settings/dashboard"
+            "link": "/settings/dashboard"
           },
           {
             "id": "3.2.3",
             "title": "Email Templates",
-            "link": "/admin/settings/email-templates"
+            "link": "/settings/email-templates"
           },
           {
             "id": "3.2.4",
             "title": "Notifications",
-            "link": "/admin/settings/notifications"
+            "link": "/settings/notifications"
           }
         ]
       },
@@ -158,17 +167,17 @@
           {
             "id": "3.3.1",
             "title": "Documentation",
-            "link": "/admin/help/documentation"
+            "link": "/help/documentation"
           },
           {
             "id": "3.3.2",
             "title": "FAQs",
-            "link": "/admin/help/faqs"
+            "link": "/help/faqs"
           },
           {
             "id": "3.3.3",
             "title": "Contact Support",
-            "link": "/admin/help/contact"
+            "link": "/help/contact"
           }
         ]
       }

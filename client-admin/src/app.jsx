@@ -1,19 +1,10 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import LayoutMain from "./components/general/layout";
-import Dashboard from "./pages/dashboard";
-import Signin from "./pages/signin";
+import { browserRouter } from "./utils/menu";
 
-const router = createBrowserRouter([
-  { path: "/", element: <Dashboard /> },
-  { path: "/signin", element: <Signin /> },
-]);
+const router = createBrowserRouter(browserRouter);
 
 export default function App() {
-  return (
-    <LayoutMain>
-      <RouterProvider router={router} />
-    </LayoutMain>
-  );
+  return <RouterProvider router={router} />;
 }
 
 // import { useState } from "react";

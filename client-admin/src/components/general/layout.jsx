@@ -6,9 +6,9 @@ export default function LayoutMain() {
   return (
     <div className="flex">
       <Sidebar />
-      <div className="w-full min-h-screen bg-zinc-100">
+      <div className="w-full min-h-screen bg-zinc-50">
         <Navbar />
-        <div className="p-6">
+        <div className="py-6 px-8 mx-auto">
           <Outlet />
         </div>
       </div>

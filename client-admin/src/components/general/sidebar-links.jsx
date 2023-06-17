@@ -31,9 +31,10 @@ export default function SidebarLinks({
       <Component
         to={link}
         className={`flex items-center cursor-pointer pl-4 pr-2 py-3 hover:bg-blue-500/5 hover:text-blue-500 w-full gap-3 transition-all duration-100 ${
-          sub ? "pl-12" : "mt-2"
+          sub ? "" : "mt-2"
         } ${highlighted}`}
         onClick={handleOpen}
+        style={{ paddingLeft: sub ? "48px" : "" }}
       >
         {Icon && <Icon />}
         <span>{title}</span>

@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
-import { icons } from "../../components/icons";
 import IconArrowRight from "../../components/icons/icon-arrow-right";
 import IconLocation from "../../components/icons/icon-location";
-import IconPlus from "../../components/icons/icon-plus";
 import { api } from "../../utils/configs";
 
 export default function Stalls() {
